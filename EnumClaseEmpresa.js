@@ -27,3 +27,5 @@ class EnumClaseEmpresa {
         return EnumClaseEmpresa.descriptions.find(item => item.description === description) || null;
     }
 }
+
+module.exports = EnumClaseEmpresa;

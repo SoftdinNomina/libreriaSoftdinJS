@@ -32,6 +32,7 @@ class EnumActualizacionWEB {
     }
 }
 
+module.exports = EnumActualizacionWEB;
 
 // Ejemplo de uso
 // console.log(EnumActualizacionWEB.getById(1)); // Imprime el objeto de la enumeración con ID 1

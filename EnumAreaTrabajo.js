@@ -23,3 +23,5 @@ class EnumAreaTrabajo {
         return EnumAreaTrabajo.descriptions.find(item => item.description === description) || null;
     }
 }
+
+module.exports = EnumAreaTrabajo;
