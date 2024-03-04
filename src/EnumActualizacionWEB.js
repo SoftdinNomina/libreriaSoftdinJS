@@ -1,4 +1,4 @@
-class EnumActualizacionWEB {
+export class EnumActualizacionWEB {
     static REGISTRADO = 1;
     static NO_REGISTRADO = 3;
     static ESPERANDO_GUARDAR = 2;
@@ -32,7 +32,7 @@ class EnumActualizacionWEB {
     }
 }
 
-module.exports = EnumActualizacionWEB;
+// module.exports = EnumActualizacionWEB;
 
 // Ejemplo de uso
 // console.log(EnumActualizacionWEB.getById(1)); // Imprime el objeto de la enumeración con ID 1
