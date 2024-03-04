@@ -7,10 +7,6 @@ class EnumAreaTrabajo {
         { id: EnumAreaTrabajo.OPERATIVO, code: 'OPERATIVO', description: 'Operativo' },
     ];
 
-    static getCollection() {
-        return EnumAreaTrabajo.descriptions;
-    }
-
     static getById(id) {
         return EnumAreaTrabajo.descriptions.find(item => item.id === id) || null;
     }

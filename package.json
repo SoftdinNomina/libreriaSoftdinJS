@@ -1,8 +1,8 @@
 {
-  "name": "softdin/libreriajs",
+  "name": "softdinlibreriajs",
   "version": "1.0.0",
-  "description": "Libreria Sofdin",
-  "main": "index.js",
+  "description": "Libreria Softdin",
+  "main": "src/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

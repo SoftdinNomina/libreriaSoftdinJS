@@ -11,10 +11,6 @@ class EnumClaseEmpresa {
         { id: EnumClaseEmpresa.PILA, code: 'PIL', description: 'PILA' },
     ];
 
-    static getCollection() {
-        return EnumClaseEmpresa.descriptions;
-    }
-
     static getById(id) {
         return EnumClaseEmpresa.descriptions.find(item => item.id === id) || null;
     }
