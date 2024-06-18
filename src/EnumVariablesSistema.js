@@ -251,21 +251,21 @@ class EnumVariablesSistema {
         {id: EnumVariablesSistema.Cambio_Sede, code: 'Cambio_Sede', description: 'CAMBIOS_C'},
         {id: EnumVariablesSistema.Cambio_Division, code: 'Cambio_Division', description: 'CAMBIOS_C'},
         {id: EnumVariablesSistema.Cambio_TipoPagoSubTransporte, code: 'Cambio_TipoPagoSubTransporte', description: 'CAMBIOS_C'},
-        {id: EnumVariablesSistema.Cambio_CuentaContable, code: 'Cambio_CuentaContable', description: 'CAMBIOS_C'},
-        {id: EnumVariablesSistema.Cambio_CentroCosto, code: 'Cambio_CentroCosto', description: 'CAMBIOS_C'},
-        {id: EnumVariablesSistema.Cambio_Actividad, code: 'Cambio_Actividad', description: 'CAMBIOS_C'},
-        {id: EnumVariablesSistema.Cambio_Turno, code: 'Cambio_Turno', description: 'CAMBIOS_C'},
-        {id: EnumVariablesSistema.Cambio_Horario, code: 'Cambio_Horario', description: 'CAMBIOS_C'},
-        {id: EnumVariablesSistema.Cambio_Empleado, code: 'Cambio_Empleado', description: 'CAMBIOS_C'},
-        {id: EnumVariablesSistema.Cambio_CentroTrabajo, code: 'Cambio_CentroTrabajo', description: 'CAMBIOS_C'},
+        {id: EnumVariablesSistema.Cambio_Activo, code: 'Cambio_Activo', description: 'CAMBIOS_C'},
+        {id: EnumVariablesSistema.Cambio_AreaTrabajo, code: 'Cambio_AreaTrabajo', description: 'CAMBIOS_C'},
+        {id: EnumVariablesSistema.Cambio_CajaCompensacion, code: 'Cambio_CajaCompensacion', description: 'CAMBIOS_C'},
+        {id: EnumVariablesSistema.Cambio_Contrato, code: 'Cambio_Contrato', description: 'CAMBIOS_C'},
+        {id: EnumVariablesSistema.Cambio_Extranjero, code: 'Cambio_Extranjero', description: 'CAMBIOS_C'},
+        {id: EnumVariablesSistema.Cambio_FondoCesantias, code: 'Cambio_FondoCesantias', description: 'CAMBIOS_C'},
+        {id: EnumVariablesSistema.Cambio_PorcentajeARP, code: 'Cambio_PorcentajeARP', description: 'CAMBIOS_C'},
         {id: EnumVariablesSistema.Cambio_Cargo, code: 'Cambio_Cargo', description: 'CAMBIOS_C'},
-        {id: EnumVariablesSistema.Cambio_Area, code: 'Cambio_Area', description: 'CAMBIOS_C'},
-        {id: EnumVariablesSistema.Cambio_Sueldo, code: 'Cambio_Sueldo', description: 'CAMBIOS_C'},
-        {id: EnumVariablesSistema.Cambio_TipoPlanilla, code: 'Cambio_TipoPlanilla', description: 'CAMBIOS_C'},
-        {id: EnumVariablesSistema.Cambio_Concepto, code: 'Cambio_Concepto', description: 'CAMBIOS_C'},
-        {id: EnumVariablesSistema.Cambio_FinContrato, code: 'Cambio_FinContrato', description: 'CAMBIOS_C'},
+        {id: EnumVariablesSistema.Cambio_PoseeCuenta, code: 'Cambio_PoseeCuenta', description: 'CAMBIOS_C'},
+        {id: EnumVariablesSistema.Cambio_ResideExterior, code: 'Cambio_ResideExterior', description: 'CAMBIOS_C'},
+        {id: EnumVariablesSistema.Cambio_ReteFuente, code: 'Cambio_ReteFuente', description: 'CAMBIOS_C'},
+        {id: EnumVariablesSistema.Cambio_Revincular, code: 'Cambio_Revincular', description: 'CAMBIOS_C'},
+        {id: EnumVariablesSistema.Cambio_TipoPago, code: 'Cambio_TipoPago', description: 'CAMBIOS_C'},
     ];
-
+ 
      static getById(id) {
         return EnumVariablesSistema.getAll().find(item => item.id === id) || null;
     }
