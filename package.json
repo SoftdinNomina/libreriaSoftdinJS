@@ -1,6 +1,6 @@
 {
   "name": "softdinlibreriajs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Libreria Softdin",
   "main": "src/",
   "scripts": {
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/SoftdinNomina/libreriaSoftdinJS/issues"
   },
-  "homepage": "https://github.com/SoftdinNomina/libreriaSoftdinJS#readme"
+  "homepage": "https://github.com/SoftdinNomina/libreriaSoftdinJS#readme",
+  
+  "_comments": "comando para ejecutar las veriosnes despues decambiar la VERSION 1.0.5  despues ejecutar este comando npm publish"
 }
+
+
