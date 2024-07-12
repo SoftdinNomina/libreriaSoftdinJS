@@ -3,8 +3,8 @@ class EnumRespuestaSINO {
     static NO = 0;
 
     static descriptions = [
-        { id: EnumRespuestaSINO.SI, code: 'SI', description: 'Sí' },
-        { id: EnumRespuestaSINO.NO, code: 'NO', description: 'No' },
+        { id: EnumRespuestaSINO.SI, code: 'SI', description: 'Sí', description2: true },
+        { id: EnumRespuestaSINO.NO, code: 'NO', description: 'No', description2: false },
     ];
 
     static getById(id) {
