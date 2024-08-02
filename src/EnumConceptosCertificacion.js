@@ -86,7 +86,7 @@ class EnumConceptosCertificacion {
         { id: EnumConceptosCertificacion.DESCRIPCION_CONTRATO, code: "DESCRIPCION CONTRATO", description: '<<31>>' },
         { id: EnumConceptosCertificacion.PRESTACION_SERVICIO, code: "PRESTACION SERVICIO", description: '<<32>>' },
         { id: EnumConceptosCertificacion.MODALIDAD_CONTRATACION, code: "MODALIDAD CONTRATACION", description: '<<33>>' },
-        { id: EnumConceptosCertificacion.PORCENTAJE_ARP, code: "PORCENTAJE ARP", description: '<<34>>' },
+        { id: EnumConceptosCertificacion.PORCENTAJE_ARL, code: "PORCENTAJE ARL", description: '<<34>>' },
         { id: EnumConceptosCertificacion.CEDULA_REPRESENTANTE_LEGAL, code: "CEDULA REPRESENTANTE LEGAL", description: '<<35>>' },
         { id: EnumConceptosCertificacion.CCF, code: "CCF", description: '<<36>>' },
         { id: EnumConceptosCertificacion.FECHA_NACIMIENTO_LARGO, code: "FECHA NACIMIENTO LARGO", description: '<<37>>' },

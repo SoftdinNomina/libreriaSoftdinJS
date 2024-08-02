@@ -1,7 +1,7 @@
 class EnumTipoServicioSeguridadSocial {
     static EPS = 1;
     static AFP = 2;
-    static ARP = 3;
+    static ARL = 3;
     static CCF = 4;
     static SENA = 5;
     static ICBF = 6;
@@ -12,7 +12,7 @@ class EnumTipoServicioSeguridadSocial {
     static descriptions = [
         { id: EnumTipoServicioSeguridadSocial.EPS, code: 'EPS', description: 'EPS' },
         { id: EnumTipoServicioSeguridadSocial.AFP, code: 'AFP', description: 'AFP' },
-        { id: EnumTipoServicioSeguridadSocial.ARP, code: 'ARP', description: 'ARP' },
+        { id: EnumTipoServicioSeguridadSocial.ARL, code: 'ARL', description: 'ARL' },
         { id: EnumTipoServicioSeguridadSocial.CCF, code: 'CCF', description: 'CCF' },
         { id: EnumTipoServicioSeguridadSocial.SENA, code: 'SENA', description: 'SENA' },
         { id: EnumTipoServicioSeguridadSocial.ICBF, code: 'ICBF', description: 'ICBF' },
