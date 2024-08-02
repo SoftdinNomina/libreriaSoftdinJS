@@ -32,7 +32,7 @@ class EnumConceptosCertificacion {
     static DESCRIPCION_CONTRATO = 31;
     static PRESTACION_SERVICIO = 32;
     static MODALIDAD_CONTRATACION = 33;
-    static PORCENTAJE_ARP = 34;
+    static PORCENTAJE_ARL = 34;
     static CEDULA_REPRESENTANTE_LEGAL = 35;
     static CCF = 36;
     static FECHA_NACIMIENTO_LARGO = 37;
