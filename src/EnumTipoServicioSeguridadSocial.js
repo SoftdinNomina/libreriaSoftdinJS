@@ -6,7 +6,7 @@ class EnumTipoServicioSeguridadSocial {
     static SENA = 5;
     static ICBF = 6;
     static ESAP = 7;
-    static MIED = 8;
+    static MEN = 8;
     static FONDO_CESANTIAS = 9;
 
     static descriptions = [
@@ -17,7 +17,7 @@ class EnumTipoServicioSeguridadSocial {
         { id: EnumTipoServicioSeguridadSocial.SENA, code: 'SENA', description: 'SENA' },
         { id: EnumTipoServicioSeguridadSocial.ICBF, code: 'ICBF', description: 'ICBF' },
         { id: EnumTipoServicioSeguridadSocial.ESAP, code: 'ESAP', description: 'ESAP' },
-        { id: EnumTipoServicioSeguridadSocial.MIED, code: 'MIED', description: 'Ministerio de Educación' },
+        { id: EnumTipoServicioSeguridadSocial.MEN, code: 'MEN', description: 'Ministerio de Educación' },
         { id: EnumTipoServicioSeguridadSocial.FONDO_CESANTIAS, code: 'FONDO_CESANTIAS', description: 'Fondo de Cesantías' }
     ];
 
