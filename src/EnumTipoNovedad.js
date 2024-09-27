@@ -6,8 +6,6 @@ class EnumTipoNovedad {
     static PROV_SEGSOC = 5;
     static PLANILLA_UNICA = 6;
     static LIQUIDACION = 7;
-    static CAMBIOS_V = 8;
-    static CAMBIOS_C = 9;
     static AGRUPAR = 10;
     static FORMULA = 11;
 
@@ -19,8 +17,6 @@ class EnumTipoNovedad {
         { id: EnumTipoNovedad.PROV_SEGSOC, code: 'PROV_SEGSOC', description: 'Provisión Seguridad Social' },
         { id: EnumTipoNovedad.PLANILLA_UNICA, code: 'PLANILLA_UNICA', description: 'Planilla Única' },
         { id: EnumTipoNovedad.LIQUIDACION, code: 'LIQUIDACION', description: 'Liquidación' },
-        { id: EnumTipoNovedad.CAMBIOS_V, code: 'CAMBIOS_V', description: 'Cambios Vinculación' },
-        { id: EnumTipoNovedad.CAMBIOS_C, code: 'CAMBIOS_C', description: 'Cambios Contratación' },
         { id: EnumTipoNovedad.AGRUPAR, code: 'AGRUPAR', description: 'Agrupar' },
         { id: EnumTipoNovedad.FORMULA, code: 'FORMULA', description: 'Fórmula' }
     ];
