@@ -12,7 +12,7 @@ class EnumOperadores {
         { id: EnumOperadores.CORCHETE_A, code: '[', description: 'Corchete Abierto' },
         { id: EnumOperadores.CORCHETE_C, code: ']', description: 'Corchete Cerrado' },
         { id: EnumOperadores.PARENTESIS_A, code: '(', description: 'Paréntesis Abierto' },
-        { id: EnumOperadores.PARENTESIS_C, code: 'A', description: 'Paréntesis Cerrado' },
+        { id: EnumOperadores.PARENTESIS_C, code: ')', description: 'Paréntesis Cerrado' },
         { id: EnumOperadores.SUMA, code: '+', description: 'Suma' },
         { id: EnumOperadores.RESTA, code: '-', description: 'Resta' },
         { id: EnumOperadores.MULTIPLICACION, code: '*', description: 'Multiplicación' },
