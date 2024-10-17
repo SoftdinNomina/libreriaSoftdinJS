@@ -60,6 +60,13 @@ export const generarCertificadoLaboral = (logo, employeeName, companyName, jobTi
   };
 
   // Generar el PDF
-  pdfMake.createPdf(docDefinition).open();
+  pdfMake.createPdf(docDefinition).getDataUrl((dataUrl) => {
+    const iframeContainer = document.getElementById('iframeContainer');
+    if (iframeContainer) {
+      iframeContainer.src = dataUrl;
+    } else {
+      console.error('Element with id "iframeContainer" not found.');
+    }
+  });
 };
 
