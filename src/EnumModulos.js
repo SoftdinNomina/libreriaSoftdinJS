@@ -4,7 +4,7 @@ class EnumModulos {
   static LIQ_VACACIONES = 3;
   static LIQ_PRESTSOCIALES = 4;
   static LIQ_CONTRATO = 5;
-  static LIQ_PRESTAMO = 6;
+  static PRESTAMO = 6;
   // static SaldosIniciales = 14;
 
   static descriptions = [
@@ -34,7 +34,7 @@ class EnumModulos {
       description: "Liquidación de Contrato",
     },
     {
-      id: EnumModulos.LIQ_PRESTAMO,
+      id: EnumModulos.PRESTAMO,
       code: "PRESTAMO",
       description: "Préstamo",
     }
