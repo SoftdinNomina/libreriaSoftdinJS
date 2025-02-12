@@ -5,7 +5,7 @@ class EnumTipoIdentificacionEmbargo {
     static PA = EnumTipoIdentificacion.PA;
     static TI = EnumTipoIdentificacion.TI;
     static NIT_O = EnumTipoIdentificacion.NIO;
-
+ 
     static descriptions = [
         { id: EnumTipoIdentificacionEmbargo.CC, code: 'CC', description: "Cedula de Ciudadanía" },
         { id: EnumTipoIdentificacionEmbargo.CE, code: 'CE', description: "Cedula de Extranjería" },

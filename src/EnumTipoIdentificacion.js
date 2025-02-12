@@ -7,7 +7,7 @@ class EnumTipoIdentificacion {
     static NI = 6;
     static CD = 7;
     static SC = 8;
-    static NIO = 6;
+    static NIO = 9;
 
     static descriptions = [
         { id: EnumTipoIdentificacion.CC, code: 'CC', description: "Cedula de Ciudadania" },
