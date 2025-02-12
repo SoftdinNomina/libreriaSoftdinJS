@@ -1,3 +1,5 @@
+const EnumTipoIdentificacion = require('./EnumTipoIdentificacion');
+
 class EnumTipoIdentificacionEmbargo {
     static CC = EnumTipoIdentificacion.CC;
     static CE = EnumTipoIdentificacion.CE;
