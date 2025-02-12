@@ -3,7 +3,7 @@ const EnumTipoIdentificacion = require('./EnumTipoIdentificacion');
 class EnumTipoIdentificacionEmbargo {
     static CC = EnumTipoIdentificacion.CC;
     static CE = EnumTipoIdentificacion.CE;
-    static NIT_P = EnumTipoIdentificacion.NIT;
+    static NIT_P = EnumTipoIdentificacion.NI;
     static PA = EnumTipoIdentificacion.PA;
     static TI = EnumTipoIdentificacion.TI;
     static NIT_O = EnumTipoIdentificacion.NIO;
